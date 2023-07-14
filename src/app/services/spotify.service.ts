@@ -36,7 +36,7 @@ export class SpotifyService {
 }
 
   async obterSpotifyUsuario(){
-    const userInfo =await this.spotifyApi.getMe();
+    const userInfo = await this.spotifyApi.getMe();
     this.usuario = SpotifyUserParaUsuario(userInfo);
   }
 
@@ -60,6 +60,5 @@ export class SpotifyService {
   definirAccessToken(token: string){
     this.spotifyApi.setAccessToken(token);
     localStorage.setItem('token', token);
-    // this.spotifyApi.skipToNext(); PULAR MUSICA PARA TESTES
   }
 }

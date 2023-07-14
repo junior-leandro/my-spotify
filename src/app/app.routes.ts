@@ -9,7 +9,7 @@ export const AppRotas: Routes = [
     },
     {
         path: 'player',
-        loadChildren : () => import('./pages/player/player.module').then(x => x.PlayerModule)
+        loadChildren : () => import ('./pages/player/player.module').then(x => x.PlayerModule)
     },
     {
         path: 'login',

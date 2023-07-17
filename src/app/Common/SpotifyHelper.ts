@@ -3,17 +3,17 @@ import { IUsuario } from "../Interfaces/IUsuario";
 
 export function SpotifyUserParaUsuario(user: SpotifyApi.CurrentUsersProfileResponse): IUsuario{
     return {
-        id: user.id,
-        nome: user.display_name,
-        imagemUrl: user.images.pop().url
+      id: user.id,
+      nome: user.display_name,
+      imagemUrl: user.images.pop().url
     }
-
-}
-
-export function SpotifyPlaylistParaPlaylist(playlist: SpotifyApi.PlaylistObjectSimplified): IPlaylist{
-    return {
+ }
+ 
+ export function SpotifyPlaylistParaPlaylist(playlist: SpotifyApi.PlaylistObjectSimplified): IPlaylist {
+  const imagemUrl = (playlist.images?.length) ? playlist.images.pop()?.url : undefined;
+  return {
       id: playlist.id,
       nome: playlist.name,
-      imagemUrl: playlist.images.pop().url
-    };
+      imagemUrl: imagemUrl
+  };
 }

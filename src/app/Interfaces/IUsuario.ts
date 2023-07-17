@@ -1,5 +1,5 @@
 export interface IUsuario {
-    id: string,
-    nome: string,
-    imagemUrl: string
-  }
+  id: string,
+  nome: string,
+  imagemUrl: string
+}

@@ -11,17 +11,18 @@ export class BotaoMenuComponent implements OnInit {
   descricao = '';
 
   @Input()
-  selecionado= false;
+  selecionado = false; 
 
   @Output()
   click = new EventEmitter<void>();
 
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void{
+  ngOnInit(): void {
   }
 
   onClick(){
     this.click.emit();
   }
+
 }

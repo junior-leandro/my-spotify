@@ -34,6 +34,7 @@ export class PlayerComponent implements OnInit {
         this.showPageContent = false;
     }
 
+    console.log(this.showPageContent)
   }
 
   naoAutenticado() {

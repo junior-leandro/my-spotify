@@ -1,2 +1,9 @@
-<app-painel-esquerdo></app-painel-esquerdo>
 
+<app-painel-esquerdo *ngIf="showPageContent"></app-painel-esquerdo>
+<div class="rotas-container">
+  <router-outlet  *ngIf="showPageContent; else loading" ></router-outlet>
+</div>
+
+<ng-template #loading>
+  <h3> Loading... </h3>
+</ng-template>

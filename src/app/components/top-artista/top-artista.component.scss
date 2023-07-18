@@ -1,7 +1,7 @@
 @import 'variaveis';
 
 .card {
-  height: 200px;
+  height: 400px;
   position: relative;
   overflow: hidden;
 
@@ -27,7 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: .4;
+    opacity: .7;
     z-index: 0;
   }
 

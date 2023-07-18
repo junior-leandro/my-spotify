@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { faStepBackward, faStepForward } from '@fortawesome/free-solid-svg-icons';
+import { faStepBackward, faStepForward, faPlay } from '@fortawesome/free-solid-svg-icons';
 import { Subscription } from 'rxjs';
 import { newMusica } from 'src/app/Common/factories';
 import { IMusica } from 'src/app/Interfaces/IMusica';
@@ -18,6 +18,7 @@ export class PlayerCardComponent implements OnInit, OnDestroy {
   // Icones
   anteriorIcone = faStepBackward;
   proximoIcone = faStepForward;
+  playIcone = faPlay;
 
   constructor(private playerService: PlayerService) { }
 

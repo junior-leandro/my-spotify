@@ -24,15 +24,19 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-color: $cor-fundo2;
     opacity: .7;
     z-index: 0;
   }
 
   span {
     color: $preto-transparent-70;
-    text-shadow: 2px 2px 10px $branco;
+    text-shadow: 1px 1px 8px $branco;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
   }
 }

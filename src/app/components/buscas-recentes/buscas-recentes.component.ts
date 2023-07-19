@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BuscasRecentesComponent implements OnInit {
 
   pesquisasRecentes = [
-    'Top Brasil', 'Top Global', 'Esquenta Sertanejo',
-    'Funk Hits', 'Pagodeira'
+    'Rock Nacional', 'MPB', 'Rock Internacional', 'Rock', 'Rock Ballads'
   ]
 
   campoPesquisa = '';

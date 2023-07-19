@@ -6,7 +6,12 @@
   padding: 5px 0px;
 
   &:hover {
-    background-color: $branco;
+    background-color: $branco-transparente-70;
+    border-radius: 5px;
+    
+    span {
+      color: $preto-transparent-70;
+    }
   }
 
   img {
@@ -16,7 +21,7 @@
   }
 
   span {
-    color: $preto-transparent-70;
+    color: $branco-transparente-70;
     flex-grow: 1;
     margin-left: 10px;
     font-weight: 600;

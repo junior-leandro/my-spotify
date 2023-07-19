@@ -4,16 +4,25 @@
     <span> {{musica.titulo }} </span>
     <div class="botoes">
       <fa-icon 
+        class="icones"
         [icon]="anteriorIcone" 
         (click)="voltarMusica()"
         >
       </fa-icon>
       <fa-icon
+        class="icones"
       [icon]="playIcone"
+      (click)="playMusica()"
       >
+      </fa-icon>
+      <fa-icon
+        class="icones"
+      [icon]="stopIcone"
+      (click)="pausarMusica()">
 
       </fa-icon>
       <fa-icon 
+        class="icones"
         [icon]="proximoIcone"
         (click)="proximaMusica()"
         >

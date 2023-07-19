@@ -117,6 +117,13 @@ export class SpotifyService {
     await this.spotifyApi.skipToPrevious();
   }
 
+  async playMusica(){
+    await this.spotifyApi.play();
+  }
+  async pausarMusica(){
+    await this.spotifyApi.pause();
+  }
+
   async proximaMusica() {
     await this.spotifyApi.skipToNext();
   }

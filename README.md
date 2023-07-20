@@ -9,15 +9,11 @@ Os dados exibidos na página dependem totalmente das informações fornecidas pe
 O token fornecido pelo Spotify tem duração de uma hora, e não permite apagar, modificar ou seguir playlists, artistas ou musicas.<br/><br/>
 
 
-### Demonstração
+### Avisos
 
 ⚠ Para funcionamento é necessário fazer login com sua conta do Spotify. <br/>
 Recomenda-se o acesso via computador, o projeto não conta com regras de responsividade.<br/>
-Não foram feitos teste de responsividade com dispositivos mobile.<br/>
-Você pode ver a aplicação clicando no icone da Vercel abaixo:
-
-[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://my-spotify-junior-leandro.vercel.app/)
- <br/> <br/> <br/>
+Não foram feitos teste de responsividade com dispositivos mobile.<br/><br/><br/>
 
 ## 🛠 Skills Desenvolvidas
 
